@@ -65,7 +65,7 @@
 {% if error == "no" %}
 <script>
 	   alert('New Notes Added Successfully.');
-       window.location=('{% url 'addNotes' %}');
+       window.location="{% url 'addNotes' %}";
 </script>
 {% endif %}
 

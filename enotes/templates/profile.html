@@ -137,7 +137,7 @@
 {% if error == "no" %}
      <script>
 	   alert('Profile has been Updated.');
-       window.location=('{% url 'profile' %}');
+       window.location="{% url 'profile' %}";
      </script>
 {% endif %}
 

@@ -71,7 +71,7 @@
 {% if error == "no" %}
      <script>
 	   alert('Registration Successfully');
-       window.location=('{% url 'user_login' %}');
+       window.location="{% url 'user_login' %}";
      </script>
 {% endif %}
 
